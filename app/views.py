@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-def naruto(request):
-    return render(request,'naruto.html')
+def index(request):
+    return render(request,'index.html')
+def styles(request):
+    return render(request,'styles.css')
